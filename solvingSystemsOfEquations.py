@@ -15,14 +15,14 @@ eq2 = a + b - 12
 # use the solve command like this.
 sol = solve([eq1, eq2], [a, b])
 # the result will be a dictionary
-print(\"The solution dictionary:\", sol)
+print("The solution dictionary:", sol)
 
 # access values by using the symbol as a key, like this
-print(\"The value of 'a' is\", sol[a])
-print(\"The value of 'b' is\", sol[b])
+print("The value of 'a' is", sol[a])
+print("The value of 'b' is", sol[b])
 
 # also -
 # to convert degrees to radians:
 angle_deg = 180
 angle_rad = mpmath.radians(angle_deg)
-print(angle_deg, \"deg =\", angle_rad, \"rad\")
+print(angle_deg, "deg =", angle_rad, "rad")
